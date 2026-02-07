@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/old_vue_project_files
 .pnp.*
 .yarn/*
 !.yarn/patches
