@@ -281,5 +281,9 @@ export default function StressElement3D({
     draggingCanvas = false;
   };
 
-  return <Sketch setup={setup} draw={draw} mousePressed={mousePressed} mouseReleased={mouseReleased} />;
+  return (
+    <div className="canvas3d">
+      <Sketch setup={setup} draw={draw} mousePressed={mousePressed} mouseReleased={mouseReleased} />
+    </div>
+  );
 }

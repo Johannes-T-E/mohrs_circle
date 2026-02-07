@@ -35,7 +35,7 @@ export default function MohrsCircle({ stress, angleDeg }: MohrsCircleProps) {
   const negativeColor = "#d62728";
 
   return (
-    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="mohrsSvg">
       <circle
         cx={mapX(center)}
         cy={mapY(0)}

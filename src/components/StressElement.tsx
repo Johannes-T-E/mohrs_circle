@@ -200,6 +200,7 @@ export default function StressElement({ stress, angleDeg, onAngleChange }: Stres
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerLeave={handlePointerUp}
+      className="stressSvg"
       style={{ touchAction: "none", cursor: "grab", overflow: "visible" }}
     >
       <defs>
